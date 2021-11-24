@@ -11,6 +11,7 @@ import {
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
+import { BioSection, BioYear } from '../components/bio'
 
 const Page = () => {
     return (
@@ -60,9 +61,6 @@ const Page = () => {
                 </Heading>
                 <Paragraph>
                     Hello world{' '}
-                    <NextLink href="/works/inkdrop">
-                        <Link>Inkdrop</Link>
-                    </NextLink>
                     .
                 </Paragraph>
                 <Box align="center" my={4}>
@@ -72,6 +70,48 @@ const Page = () => {
                         </Button>
                     </NextLink>
                 </Box>
+            </Section>
+
+            <Section delay={0.2}>
+                <Heading
+                    as="h3"
+                    variant="section-title"
+                >
+                    Bio
+                </Heading>
+                <BioSection>
+                    <BioYear>1989</BioYear>
+                    Born in Taiwan.
+                </BioSection>
+                <BioSection>
+                    <BioYear>2016</BioYear>
+                    Completed the Master&apos;s Program in NSYSU.
+                </BioSection>
+                <BioSection>
+                    <BioYear>2016/09 - 2017/12</BioYear>
+                    Worked as a Research Assistant in NSYSU.
+                </BioSection>
+                <BioSection>
+                    <BioYear>2018/04 - 2018/09</BioYear>
+                    Worked as a Software Engineer in Q.S.F Network Information Ltd.
+                </BioSection>
+                <BioSection>
+                    <BioYear>2018/12 - 2020/09</BioYear>
+                    Worked as a Cloud Software Engineer in Gemini Open Cloud Computing Inc.
+                </BioSection>
+                <BioSection>
+                    <BioYear>2020/09 - present</BioYear>
+                    Worked as a Software Engineer in Wipro Limited (TVC in Google).
+                </BioSection>
+            </Section>
+
+            <Section delay={0.3}>
+                <Heading as="h3" variant="section-title">
+                    Interests
+                </Heading>
+                <Paragraph>
+                    Table Tennis, Basketball, Video Games, Escape Room, Sketching, Crypto Currency
+                </Paragraph>
             </Section>
         </Container>
     )
