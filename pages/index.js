@@ -45,7 +45,7 @@ const Page = () => {
                         maxWidth="100px"
                         display="inline-block"
                         borderRadius="full"
-                        src="/images/profile.jfif"
+                        src='/images/profile.jpg'
                         alt="Profile image"
                     />
                 </Box>
@@ -81,10 +81,6 @@ const Page = () => {
                 <BioSection>
                     <BioYear>1989</BioYear>
                     Born in Taiwan.
-                </BioSection>
-                <BioSection>
-                    <BioYear>2016</BioYear>
-                    Completed the Master&apos;s Program in NSYSU.
                 </BioSection>
                 <BioSection>
                     <BioYear>2016/09 - 2017/12</BioYear>

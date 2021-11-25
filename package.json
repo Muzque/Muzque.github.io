@@ -9,7 +9,7 @@
     "prettier": "prettier -write .",
     "lint": "next lint",
     "export": "next export",
-    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to deploy\" && git subtree push --prefix out origin deploy"
+    "deploy": "rm -rf node_modules/.cache && next build && npm run export && touch out/.nojekyll && git add out/ && git commit -m \"Push staticfiles to deploy branch\" && git subtree push --prefix out origin deploy"
   },
   "repository": {
     "type": "git",

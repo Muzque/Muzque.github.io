@@ -1,7 +1,9 @@
-module.export = {
+module.exports = {
     reactStrictMode: true,
-    images: {
-        loader: 'imgix',
-        path: '/'
-    }
+    swcMinify: true,
+//    images: {
+//        domains: ['localhost'],
+//        loader: 'imgix',
+//        path: 'https://noop/'
+//    }
 }
