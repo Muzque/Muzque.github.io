@@ -1,9 +1,7 @@
 import {
     Container,
-    Box,
     Heading
 } from '@chakra-ui/react'
-import Section from '../components/section'
 
 const Posts = () => {
     return (
