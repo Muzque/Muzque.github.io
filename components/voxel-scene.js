@@ -8,7 +8,7 @@ function easeOutCircle(x) {
     return Math.sqrt(1 - Math.pow(x-1, 4))
 }
 
-const VoxelWhale = () => {
+const VoxelScene = () => {
     const refContainer = useRef()
     const [loading, setLoading] = useState(true)
     const [renderer, setRenderer] = useState()
@@ -126,4 +126,4 @@ const VoxelWhale = () => {
     )
 }
 
-export default VoxelWhale
+export default VoxelScene
