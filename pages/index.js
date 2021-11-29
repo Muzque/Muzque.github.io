@@ -12,20 +12,20 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 
-const Page = () => {
+const Home = () => {
     return (
         <Container>
             <Box
                 borderRadius="lg"
                 bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
                 p={3}
-                align="center"
+                textAlign="center"
                 mb={6}
             >
                 Hello, I&apos;m a full-stack developer based in Taiwan!
             </Box>
 
-            <Box display={{ md:"flex" }}>
+            <Box display={{ md: "flex" }}>
                 <Box flexGrow={1}>
                     <Heading as="h2" variant="page-title">
                         Xuan-Di Lin
@@ -35,8 +35,8 @@ const Page = () => {
                 <Box
                     flexShrink={0}
                     mt={{ base: 4, md: 0}}
-                    ml={{ md: 6}}
-                    align="center"
+                    ml={{ md: 6 }}
+                    textAlign="center"
                 >
                     <Image
                         borderColor="whiteAlpha.800"
@@ -112,4 +112,4 @@ const Page = () => {
     )
 }
 
-export default Page
+export default Home

@@ -1,5 +1,5 @@
-# My Homepage
-TODO: deploy this web on Vercel.
+# My bio website
+Navigate to https://bio-muzque.vercel.app/
 
 ## Quick View
 ![Preview](public/quickView.PNG)
